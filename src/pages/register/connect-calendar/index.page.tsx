@@ -6,7 +6,7 @@ import { signIn, useSession } from 'next-auth/react'
 import { AuthError, ConnectBox, Connetitem } from './styles'
 import { useRouter } from 'next/router'
 
-export default function Register() {
+export default function ConnectCalendar() {
   const session = useSession()
   const router = useRouter()
 
@@ -16,10 +16,6 @@ export default function Register() {
   async function handleConnectCalendar() {
     await signIn('google')
   }
-
-  // async function handleRegister() {}
-
-  console.log(session)
 
   return (
     <Container>
