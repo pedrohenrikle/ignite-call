@@ -108,7 +108,7 @@ export default function Timeintervals() {
 
   return (
     <>
-      <NextSeo title="Conecte sua agenda do Google | Ignite Call" noindex />
+      <NextSeo title="Selecione sua disponibilidade | Ignite Call" noindex />
 
       <Container>
         <Header>
